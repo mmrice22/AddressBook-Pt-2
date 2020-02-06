@@ -1,0 +1,65 @@
+body {
+  background-image: url("background-image.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "Maven Pro", sans-serif;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: rgb(179, 178, 176, 0.6);
+  border-radius: 5px;
+}
+
+label {
+  margin-left: 20px;
+}
+
+input {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.fa-trash {
+  
+}
